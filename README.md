@@ -30,7 +30,7 @@ ssh root@localhost -p 2222
 </pre>
 Use Password: <b> password </b>
 
-<img src="https://media.giphy.com/media/3o7buaZCmo40ZzIQ00/giphy.gif" width="480" height="260.9059233449477"><p><a href="https://gotechnies.net">via Gotechnies</a></p>
+<img src="https://media.giphy.com/media/3o7buaZCmo40ZzIQ00/giphy.gif" width="480" height="260.9059233449477">
 
 
 ## License
