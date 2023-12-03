@@ -1,7 +1,7 @@
 # alpine
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhillzacky%2Falpine.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhillzacky%2Falpine?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHillzacky%2Falpine.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHillzacky%2Falpine?ref=badge_shield)
 
-<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/hillzacky/alpine?style=plastic">
+<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/Hillzacky/alpine?style=plastic">
 
 A minimal Docker image based on Alpine Linux with a complete package index and only 5 MB in size!
 
@@ -12,7 +12,7 @@ The above Dockerfile has root enabled in the ssh server as well as run ssh on th
 container creation.
 # How to build this Dockerfile.
 <pre>
-$ docker build -t ghcr.io/hillzacky/alpine:master -f Dockerfile .
+$ docker build -t ghcr.io/Hillzacky/alpine:master -f Dockerfile .
 </pre>
 
 # How to run the docker container with ssh ?
@@ -20,7 +20,7 @@ $ docker build -t ghcr.io/hillzacky/alpine:master -f Dockerfile .
 I have exposed the port 22 in the Dockerfile. You can use the below command to run the docker container.
 
 <pre>
-$ docker run -d -p 2222:22 ghcr.io/hillzacky/alpine:master
+$ docker run -d -p 2222:22 ghcr.io/Hillzacky/alpine:master
 </pre>
 
 To connect the docker container via ssh.
@@ -34,4 +34,4 @@ Use Password: <b> password </b>
 
 
 ## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhillzacky%2Falpine.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhillzacky%2Falpine?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHillzacky%2Falpine.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FHillzacky%2Falpine?ref=badge_large)
